@@ -18,10 +18,8 @@ body {
   font-style: italic;
 }
 form {
-    margin-right:0 auto;
-    margin-left: 0 auto;
-    /* width: 600px;
-    height: 400px; */
+    margin:auto;
+    width: 500px;
   background-color: white;
   font-size: 20px;
   padding: 20px;
