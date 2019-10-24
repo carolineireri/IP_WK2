@@ -1,0 +1,28 @@
+#intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+.container {
+  width: 900px;
+}
+body {
+  background-color: #7b7821;
+}
+#intro h4 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(3, 68, 3);
+  font-style: italic;
+}
+form {
+    width: 60%;
+    height: 400px;
+  background-color: white;
+  font-size: 20px;
+}
+.form-control {
+    justify-content: center;
+}
