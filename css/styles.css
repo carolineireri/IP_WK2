@@ -18,11 +18,11 @@ body {
   font-style: italic;
 }
 form {
-    width: 60%;
-    height: 400px;
+    margin-right:0 auto;
+    margin-left: 0 auto;
+    /* width: 600px;
+    height: 400px; */
   background-color: white;
   font-size: 20px;
-}
-.form {
-    justify-content: center;
+  padding: 20px;
 }
