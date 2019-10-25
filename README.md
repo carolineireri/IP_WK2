@@ -18,9 +18,9 @@ To view this project, please use this live link.
 
 ## Technologies used
 
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
 
 ## Known Bugs
 
