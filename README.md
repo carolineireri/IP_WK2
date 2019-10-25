@@ -1,4 +1,4 @@
-# PORTFOLIO WEBSITE
+# AKAN NAME GENERATOR WEBPAGE
 
 ## Project Author
 
@@ -6,16 +6,13 @@ Caroline Nyambura Ireri
 
 ## Screenshots
 
-<img src="images/portfolio1.png">
-<img src="images/portfolio2.png">
-
 ## Description
 
 This is a portfolio website that gives information about my education background,skills,interests and some of the projects that I have worked on.
 
 ## Deploying
 
-To view this project, please use this live link. https://carolineireri.github.io/portfolio/
+To view this project, please use this live link.
 
 ## BDD
 
@@ -29,7 +26,7 @@ To view this project, please use this live link. https://carolineireri.github.io
 
 ## Contributing changes
 
-To contribute to changes in this project, feel free to fork this project on github and clone it to your local repository. Use this link https://github.com/carolineireri/
+To contribute to changes in this project, feel free to fork this project on github and clone it to your local repository. Use this link
 
 ## Support and Contact details
 
