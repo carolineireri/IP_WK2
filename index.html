@@ -72,15 +72,15 @@
               placeholder="13"
             />
           </div> -->
-          <input type="text" id="dd" placeholder="Day" required />
-          <input type="text" id="mm" placeholder="Month" required />
-          <input type="text" id="yy" placeholder="Year" required />
+          <input type="number" id="dd" placeholder="Day" required />
+          <input type="number" id="mm" placeholder="Month" required />
+          <input type="number" id="yy" placeholder="Year" required />
           <h5>Select your gender.</h5>
           <div class="form-check">
             <input
               class="form-check-input"
               type="radio"
-              name="exampleRadios"
+              name="gender"
               id="exampleRadios1"
               value="Female"
             />
@@ -92,7 +92,7 @@
             <input
               class="form-check-input"
               type="radio"
-              name="exampleRadios"
+              name="gender"
               id="exampleRadios1"
               value="Male"
             />
@@ -101,7 +101,7 @@
             </label>
           </div>
           <br />
-          <button type="button" class="btn btn-primary btn-sm my-button">
+          <button type="button" onclick=(akanName()) class="btn btn-primary btn-sm my-button">
             SUBMIT
           </button>
         </form>
