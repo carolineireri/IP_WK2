@@ -3,12 +3,11 @@
   <head>
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
     <script src="js/script.js"></script>
-    <title>Home Page</title>
+    <title>Home Page- Akan Names</title>
   </head>
   <body>
     <div class="container">
       <div class="row" id="intro">
-        
         <h3>Ever wondered what your name would be if you were ghanian?</h3>
         <h4>The interesting naming tradition of the ghanian people.</h4>
         <br />
@@ -27,18 +26,33 @@
       <div class="row" id="form">
         <form>
           <h5>Please enter your details below.</h5>
-          <div id="input" class=inputs>
-          <input type="number" id="dd" placeholder="Day of Birth e.g. 10" required /><br>
-          <input type="number" id="mm" placeholder="Month of Birth e.g. 2" required /><br>
-          <input type="number" id="yy" placeholder="Year of Birth e.g. 2017" required />
-        </div>
+          <div id="input" class="inputs">
+            <input
+              type="number"
+              id="dd"
+              placeholder="Day of Birth e.g. 10"
+              required
+            /><br />
+            <input
+              type="number"
+              id="mm"
+              placeholder="Month of Birth e.g. 2"
+              required
+            /><br />
+            <input
+              type="number"
+              id="yy"
+              placeholder="Year of Birth e.g. 2017"
+              required
+            />
+          </div>
           <h5>Select your gender.</h5>
-        <div id="input-radio">
-          <input type="radio" name="gender" id="female" value="female" />
-          Male
-          <input type="radio" name="gender" id="male" value="male" />
-          Female<br />
-        </div>
+          <div id="input-radio">
+            <input type="radio" name="female" id="female" value="female" />
+            Female
+            <input type="radio" name="male" id="male" value="male" />
+            Male<br />
+          </div> 
           <button
             type="submit"
             onclick="akanName()"
@@ -46,12 +60,11 @@
           >
             SUBMIT
           </button>
-
         </form>
       </div>
-    </div> 
+    </div>
     <div id="footer">
-        <p>&copy; Copyright 2019 Caroline N.</p> 
-  </div>
+      <p>&copy; Copyright 2019 Caroline N.</p>
+    </div>
   </body>
 </html>

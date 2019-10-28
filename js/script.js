@@ -33,10 +33,10 @@ function akanName() {
   var dob = new Date(dd +"-"+ mm +"-"+ yy);
   var day=dob.getDay();
 
-  if (male.checked == true) {
-    alert("You were born on " + daysArray[day] + " and your akan name is " + maleArray[day]);
-  } else if (female.checked == true) {
+  if (female.checked == true) {
     alert("You were born on " + daysArray[day] + " and your akan name is " + femaleArray[day]);
+  } else if (male.checked == true) {
+    alert("You were born on " + daysArray[day] + " and your akan name is " + maleArray[day]);
   } else {
     alert("Error occured");
   }
