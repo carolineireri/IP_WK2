@@ -61,3 +61,6 @@ form input {
   padding: 15px;
   width: 10%;
 }
+#input-radio {
+margin: 0;
+}
