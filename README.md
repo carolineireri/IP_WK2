@@ -6,7 +6,7 @@ Caroline Nyambura Ireri
 
 ## Screenshots
 
-<img src="images/background.jpeg">
+<img src="images/screenshot.png">
 
 ## Description
 
