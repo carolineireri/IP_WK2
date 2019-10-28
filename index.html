@@ -9,7 +9,8 @@
     <div class="container">
       <div class="row" id="intro">
         <h3>Ever wondered what your name would be if you were ghanian?</h3>
-        <br>
+        <hr />
+        <br /><br />
         <h4>The interesting naming tradition of the ghanian people.</h4>
         <br />
         <hr />
@@ -23,26 +24,32 @@
         </p>
       </div>
       <br />
-      <hr />
       <div class="row" id="form">
         <form>
-          <h5>Please enter your details below.</h5>
+          <h5>Please enter your details below to get your Akan name.</h5>
+          <br />
           <div id="input" class="inputs">
             <input
               type="number"
               id="dd"
+              min="0"
+              max="31"
               placeholder="Day of Birth e.g. 10"
               required
             /><br />
             <input
               type="number"
               id="mm"
+              min="0"
+              max="12"
               placeholder="Month of Birth e.g. 2"
               required
             /><br />
             <input
               type="number"
               id="yy"
+              min="1900"
+              max="2019"
               placeholder="Year of Birth e.g. 2017"
               required
             />
@@ -53,7 +60,7 @@
             Female
             <input type="radio" name="male" id="male" value="male" />
             Male<br />
-          </div> 
+          </div>
           <button
             type="submit"
             onclick="akanName()"

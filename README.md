@@ -8,8 +8,7 @@ Caroline Nyambura Ireri
 
 ## Description
 
-This is a portfolio website that gives information about my education background,skills,interests and some of the projects that I have worked on.
-
+This is a webpage that generates ghanian names called Akan names. The user is expected to fill in his or her birthday details after which a name is generated based on the day of the week which they were born.
 ## Deploying
 
 To view this project, please use this live link.
