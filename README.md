@@ -6,14 +6,19 @@ Caroline Nyambura Ireri
 
 ## Screenshots
 
+<img src="images/screenshot.png">
+
 ## Description
 
 This is a webpage that generates ghanian names called Akan names. The user is expected to fill in his or her birthday details after which a name is generated based on the day of the week which they were born.
+
 ## Deploying
 
-To view this project, please use this live link.
+To view this project, please use this live link. https://carolineireri.github.io/ip_wk2/
 
 ## BDD
+
+On visiting this webpage, The home page is displayed which contains a breif introduction about the Akan naming from Ghana. The user is expected to fill in their birthday details on the form and an Akan name is generated.
 
 ## Technologies used
 
@@ -23,9 +28,11 @@ To view this project, please use this live link.
 
 ## Known Bugs
 
+No known bugs.
+
 ## Contributing changes
 
-To contribute to changes in this project, feel free to fork this project on github and clone it to your local repository. Use this link
+To contribute to changes, feel free to fork this project on github and clone it to your local repository. Use this link https://github.com/carolineireri/ip_wk2
 
 ## Support and Contact details
 
