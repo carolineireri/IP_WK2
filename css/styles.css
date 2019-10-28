@@ -12,7 +12,7 @@
   width: 900px;
 }
 body {
-  background-image: url("https://bit.ly/36c7My8");
+  background-image: url(/images/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
