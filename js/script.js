@@ -1,6 +1,6 @@
 function akanName() {
-  var femalearray = ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-  var malearray = [
+  var femaleArray = ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var maleArray = [
     "Kwasi",
     "Kwadwo",
     "Kwabena",
@@ -10,14 +10,14 @@ function akanName() {
     "Kwame"
   ];
   // array for days of the week
-  var daysarray = [
-    "sunday",
-    "monday",
-    "tuesday",
-    "wednesday",
-    "thursday",
-    "friday",
-    "saturday"
+  var daysArray = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
   ];
   var dd = parseInt(document.getElementById("dd").value);
   var mm = parseInt(document.getElementById("mm").value);
@@ -30,26 +30,15 @@ function akanName() {
   } else if (dd < 1 || dd > 31) {
     alert("Please enter a valid day!");
   }
-  var dob = new Date(dd + "-" + mm + "-" + yy);
-  var day = dob.getDay();
+  var dob = new Date(dd +"-"+ mm +"-"+ yy);
+  var day=dob.getDay();
 
   if (male.checked == true) {
-    alert(
-      "You were born on" +
-        " " +
-        daysarray[day] +
-        " and yor akan name is" +
-        " " +
-        malearray[day]
-    );
+    alert("You were born on " + daysArray[day] + " and yor akan name is " + maleArray[day]);
   } else if (female.checked == true) {
-    alert(
-      "You were born on" +
-        daysarray[day] +
-        "and your akan name is" +
-        femalearray[day]
-    );
+    alert("You were born on " + daysArray[day] + " and your akan name is " + femaleArray[day]);
   } else {
     alert("Error occured");
   }
 }
+
