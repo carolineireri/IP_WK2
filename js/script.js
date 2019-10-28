@@ -1,5 +1,5 @@
 function akanName() {
-  var femaleArray = ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var femaleArray = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var maleArray = [
     "Kwasi",
     "Kwadwo",
