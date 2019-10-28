@@ -1,26 +1,55 @@
 function akanName() {
-    var femalearray= ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    var malearray= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  var femalearray = ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var malearray = [
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame"
+  ];
+  // array for days of the week
+  var daysarray = [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday"
+  ];
+  var dd = parseInt(document.getElementById("dd").value);
+  var mm = parseInt(document.getElementById("mm").value);
+  var yy = parseInt(document.getElementById("yy").value);
+  var male = document.getElementById("male");
+  var female = document.getElementById("female");
 
-    var dd= parseInt(document.getElementById("dd").value);
-    var mm=parseInt(document.getElementById("mm").value);
-    var yy=parseInt(document.getElementById("yy").value);
-    var cc = (yy - 1) / 100 + 1;
-    // array for days of the week
-    var daysarray = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-    var dayofweek = (CC / 4 - 2 * CC - 1 + 5 * YY / 4 + (26 * (MM + 1) / 10) + DD) % 7;
-    console.log(dayofweek);
+  if (mm < 1 || mm > 12 || (mm == 2 && mm > 29)) {
+    alert("Please enter a valid month!");
+  } else if (dd < 1 || dd > 31) {
+    alert("Please enter a valid day!");
+  }
+  var dob = new Date(dd + "-" + mm + "-" + yy);
+  var day = dob.getDay();
 
-    var gender = document.querySelector('input[name="gender"]:checked').value;
-    console.log(gender);
-    if (gender === "Female") {
-        // console.log(arrayoffemale);
-        // document.getElementById('demo').innerHTML = femalearray[Math.round(dayofweek)];
-
-    } else {
-        // console.log(arrayofmale);
-        // document.getElementById('demo').innerHTML = malearray[Math.round(dayofweek)];
-
-
-    }
+  if (male.checked == true) {
+    alert(
+      "You were born on" +
+        " " +
+        daysarray[day] +
+        " and yor akan name is" +
+        " " +
+        malearray[day]
+    );
+  } else if (female.checked == true) {
+    alert(
+      "You were born on" +
+        daysarray[day] +
+        "and your akan name is" +
+        femalearray[day]
+    );
+  } else {
+    alert("Error occured");
+  }
 }
