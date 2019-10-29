@@ -25,20 +25,29 @@ function akanName() {
   var male = document.getElementById("male");
   var female = document.getElementById("female");
 
-  if (mm < 1 || mm > 12 || (mm == 2 && mm > 29)) {
-    alert("Please enter a valid month!");
-  } else if (dd < 1 || dd > 31) {
-    alert("Please enter a valid day!");
-  }
-  var dob = new Date(dd +"-"+ mm +"-"+ yy);
-  var day=dob.getDay();
+  // if (mm < 1 || mm > 12 || (mm == 2 && dd > 29)) {
+  //   alert("Please enter a valid month!");
+  // } else if (dd < 1 || dd > 31) {
+  //   alert("Please enter a valid day!");
+  // }
+  var day = new Date(yy + "-" + mm + "-" + dd);
+  var dob = day.getDay();
 
   if (female.checked == true) {
-    alert("You were born on " + daysArray[day] + " and your akan name is " + femaleArray[day]);
+    alert(
+      "You were born on " +
+        daysArray[dob] +
+        " and your akan name is " +
+        femaleArray[dob]
+    );
   } else if (male.checked == true) {
-    alert("You were born on " + daysArray[day] + " and your akan name is " + maleArray[day]);
+    alert(
+      "You were born on " +
+        daysArray[dob] +
+        " and your akan name is " +
+        maleArray[dob]
+    );
   } else {
     alert("Error occured");
   }
 }
-
